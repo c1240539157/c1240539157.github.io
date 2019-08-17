@@ -34,7 +34,7 @@
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     save_scroll: false,
-    copycode: {"enable":false,"show_result":false,"style":null},
+    copycode: {"enable":true,"show_result":true,"style":null},
     fancybox: false,
     mediumzoom: false,
     lazyload: false,
@@ -57,18 +57,18 @@
   };
 </script>
 
-  <meta name="description" content="90年尾巴生人，程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
+  <meta name="description" content="90年尾巴生人，阿里程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
 <meta name="keywords" content="成长、颠覆、时间、朋友">
 <meta property="og:type" content="website">
-<meta property="og:title" content="about">
+<meta property="og:title" content="About me">
 <meta property="og:url" content="blog.chenside.net/about/index.html">
 <meta property="og:site_name" content="时间的朋友">
-<meta property="og:description" content="90年尾巴生人，程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
+<meta property="og:description" content="90年尾巴生人，阿里程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-12T06:25:09.844Z">
+<meta property="og:updated_time" content="2019-08-17T07:37:36.770Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="90年尾巴生人，程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
+<meta name="twitter:title" content="About me">
+<meta name="twitter:description" content="90年尾巴生人，阿里程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。">
   <link rel="canonical" href="blog.chenside.net/about/">
 
 
@@ -83,7 +83,7 @@
   };
 </script>
 
-  <title>about | 时间的朋友</title>
+  <title>About me | 时间的朋友</title>
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64474957-1"></script>
   <script>
@@ -155,7 +155,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-        <p class="site-subtitle">最好的成长，就是不断颠覆过去</p>
+        <h1 class="site-subtitle" itemprop="description">最好的成长，就是不断颠覆过去</h1>
       
   </div>
 
@@ -258,9 +258,9 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">about
+<h2 class="post-title" itemprop="name headline">About me
 
-</h1>
+</h2>
 
 <div class="post-meta">
   
@@ -275,7 +275,7 @@
       <div class="post-body">
         
           <ul>
-<li>90年尾巴生人，程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。</li>
+<li>90年尾巴生人，阿里程序员。稍长Java开发，对前端略有了解。不安于现状，苛求更多的知识。</li>
 </ul>
 
         
@@ -294,6 +294,9 @@
 
           </div>
           
+    
+    <div class="comments" id="comments"></div>
+  
 
         </div>
           
@@ -324,6 +327,19 @@
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+        
+        
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+        
       </div>
     
   </nav>
@@ -463,6 +479,32 @@
 <script src="/js/post-details.js?v=7.3.0"></script>
 
   
+
+    
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', function() {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'B6o4eGrt9MgDdJCqMvpqrOgK-gzGzoHsz',
+    appKey: 'v5eIpjaEFKnBd94qgoGVPeAC',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: 'zh-cn' || 'zh-cn',
+    path: location.pathname
+  });
+}, window.Valine);
+</script>
 
 </body>
 </html>
