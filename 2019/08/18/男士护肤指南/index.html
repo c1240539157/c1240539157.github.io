@@ -45,7 +45,7 @@
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     },
-    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
@@ -56,13 +56,13 @@
   };
 </script>
 
-  <meta name="description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒     错误二：痘痘不用管，年龄到了就会好划重点：男性因为雄性激素旺盛，分泌物比较多更容易有痤疮问题  错误三：晒晒更健康划重点：男性比较抗晒，但是夏季太阳紫外线强烈仍然容易晒黑和晒伤  错误四：女朋友的护肤品，随便用划重点：女性男性的皮肤特点不同，如果是清爽型、控油型的男性同胞可以试试。 清">
+  <meta name="description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒">
 <meta name="keywords" content="护肤">
 <meta property="og:type" content="article">
 <meta property="og:title" content="男士护肤指南">
 <meta property="og:url" content="blog.chenside.net/2019/08/18/男士护肤指南/index.html">
 <meta property="og:site_name" content="时间的朋友">
-<meta property="og:description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒     错误二：痘痘不用管，年龄到了就会好划重点：男性因为雄性激素旺盛，分泌物比较多更容易有痤疮问题  错误三：晒晒更健康划重点：男性比较抗晒，但是夏季太阳紫外线强烈仍然容易晒黑和晒伤  错误四：女朋友的护肤品，随便用划重点：女性男性的皮肤特点不同，如果是清爽型、控油型的男性同胞可以试试。 清">
+<meta property="og:description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face1.JPG">
 <meta property="og:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face3.JPG">
@@ -82,10 +82,10 @@
 <meta property="og:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face17.JPG">
 <meta property="og:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face18.JPG">
 <meta property="og:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face20.JPG">
-<meta property="og:updated_time" content="2019-08-18T09:24:23.745Z">
+<meta property="og:updated_time" content="2019-08-18T09:44:06.562Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="男士护肤指南">
-<meta name="twitter:description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒     错误二：痘痘不用管，年龄到了就会好划重点：男性因为雄性激素旺盛，分泌物比较多更容易有痤疮问题  错误三：晒晒更健康划重点：男性比较抗晒，但是夏季太阳紫外线强烈仍然容易晒黑和晒伤  错误四：女朋友的护肤品，随便用划重点：女性男性的皮肤特点不同，如果是清爽型、控油型的男性同胞可以试试。 清">
+<meta name="twitter:description" content="男士护肤，你做错了什么？错误一：一瓶洗面奶就可以搞定男士护肤划重点：男士护肤三部曲:  清洁、保湿、防晒">
 <meta name="twitter:image" content="blog.chenside.net/2019/08/18/男士护肤指南/images/face1.JPG">
   <link rel="canonical" href="blog.chenside.net/2019/08/18/男士护肤指南/">
 
@@ -245,36 +245,9 @@
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br>关于</a>
 
   </li>
-      <li class="menu-item menu-item-search">
-        <a href="javascript:;" class="popup-trigger">
-        
-          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
-      </li>
-    
   </ul>
 
 </nav>
-  <div class="site-search">
-    
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-  </div>
 </div>
     </header>
 
@@ -291,6 +264,7 @@
 
   <div id="posts" class="posts-expand">
     
+    <div class="reading-progress-bar"></div>
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
@@ -328,7 +302,7 @@
                 
               
 
-              <time title="创建时间：2019-08-18 16:20:20 / 修改时间：17:24:23" itemprop="dateCreated datePublished" datetime="2019-08-18T16:20:20+08:00">2019-08-18</time>
+              <time title="创建时间：2019-08-18 16:20:20 / 修改时间：17:44:06" itemprop="dateCreated datePublished" datetime="2019-08-18T16:20:20+08:00">2019-08-18</time>
             </span>
           
             
@@ -370,9 +344,9 @@
       
         <h3 id="男士护肤，你做错了什么？"><a href="#男士护肤，你做错了什么？" class="headerlink" title="男士护肤，你做错了什么？"></a>男士护肤，你做错了什么？</h3><h4 id="错误一：一瓶洗面奶就可以搞定男士护肤"><a href="#错误一：一瓶洗面奶就可以搞定男士护肤" class="headerlink" title="错误一：一瓶洗面奶就可以搞定男士护肤"></a>错误一：一瓶洗面奶就可以搞定男士护肤</h4><p>划重点：男士护肤三部曲:</p>
 <ul>
-<li><strong>清洁、保湿、防晒</strong>  </li>
+<li><strong>清洁、保湿、防晒</strong>  <a id="more"></a>
+<img src="images/face1.JPG" alt="一瓶洗面奶搞定男士护肤"></li>
 </ul>
-<p><img src="images/face1.JPG" alt="一瓶洗面奶搞定男士护肤"></p>
 <h4 id="错误二：痘痘不用管，年龄到了就会好"><a href="#错误二：痘痘不用管，年龄到了就会好" class="headerlink" title="错误二：痘痘不用管，年龄到了就会好"></a>错误二：痘痘不用管，年龄到了就会好</h4><p>划重点：男性因为雄性激素旺盛，分泌物比较多更容易有痤疮问题</p>
 <p><img src="images/face3.JPG" alt="痘痘不用管，年龄到了就会好" title="痘痘不用管，年龄到了就会好"></p>
 <h4 id="错误三：晒晒更健康"><a href="#错误三：晒晒更健康" class="headerlink" title="错误三：晒晒更健康"></a>错误三：晒晒更健康</h4><p>划重点：男性比较抗晒，但是夏季太阳紫外线强烈仍然容易晒黑和晒伤</p>
@@ -646,6 +620,7 @@
 
   
   <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/lib/reading_progress/reading_progress.js"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
@@ -674,6 +649,14 @@
   </script>
 
 
+  <script src="/lib/bookmark/bookmark.min.js?v=1.0"></script>
+  <script>
+  if (CONFIG.page.isPost) {
+    bookmark.scrollToMark('auto', "#更多");
+  } else {
+    bookmark.loadBookmark();
+  }
+  </script>
 
 
 
@@ -686,8 +669,6 @@
 
 
 
-
-  <script src="/js/local-search.js?v=7.3.0"></script>
 
 
 
